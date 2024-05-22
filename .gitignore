@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+env/
+bin/
+lib/
+lib64/
+include/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+
+# VS Code specific files
+.vscode/
+
+# PyCharm specific files
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
