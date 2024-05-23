@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: mlFlowProject
+Version: 0.0.0
+Summary: An end to end machine learning project implementation
+Home-page: https://github.com/Oyebamiji-Micheal/End-to-End-Customer-Churn-Prediction-using-MLflow-and-DVC
+Author: Oyebamiji-Micheal
+Author-email: oyebamijimicheal10@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Oyebamiji-Micheal/End-to-End-Customer-Churn-Prediction-using-MLflow-and-DVC/issues
+Description: # Loan Default Prediction Challenge
+         An end to end machine learning project implementation with Azure deployment
+        
+Platform: UNKNOWN
