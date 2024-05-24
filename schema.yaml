@@ -1,1 +1,15 @@
-key: value
+COLUMNS:
+  RowNumber: int64  
+  CustomerId: int64  
+  Surname: object
+  CreditScore: int64  
+  Geography: object 
+  Gender: object 
+  Age: float64
+  Tenure: int64  
+  Balance: float64
+  NumOfProducts: int64  
+  HasCrCard: float64
+  IsActiveMember: float64
+  EstimatedSalary: float64
+  Exited: int64
