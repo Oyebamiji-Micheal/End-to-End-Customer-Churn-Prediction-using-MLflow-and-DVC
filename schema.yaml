@@ -13,3 +13,6 @@ COLUMNS:
   IsActiveMember: float64
   EstimatedSalary: float64
   Exited: int64
+
+TARGET_COLUMN:
+  name: Exited

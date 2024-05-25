@@ -354,3 +354,480 @@ x==========x]
 [2024-05-24 13:52:42,042: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2024-05-25 12:04:01,511: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 12:04:01,539: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 12:04:01,556: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 12:04:01,558: INFO: common: created directory at: artifacts]
+[2024-05-25 12:04:01,560: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 12:04:01,561: ERROR: 87962216: Failed to transform and split data with the following error: 'DataTransformation' object has no attribute 'transform_split_data']
+[2024-05-25 12:04:20,580: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 12:04:20,582: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 12:04:20,588: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 12:04:20,590: INFO: common: created directory at: artifacts]
+[2024-05-25 12:04:20,592: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 12:04:21,613: INFO: 389921339: Splited data into training and test sets]
+[2024-05-25 12:04:21,619: INFO: 389921339: (7501, 14)]
+[2024-05-25 12:04:21,624: INFO: 389921339: (2501, 14)]
+[2024-05-25 12:21:51,435: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 12:21:51,438: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 12:21:51,444: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 12:21:51,446: INFO: common: created directory at: artifacts]
+[2024-05-25 12:21:51,448: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 12:22:04,377: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 12:22:04,380: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 12:22:04,385: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 12:22:04,387: INFO: common: created directory at: artifacts]
+[2024-05-25 12:22:04,389: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 12:27:26,263: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 12:27:26,266: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 12:27:26,271: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 12:27:26,273: INFO: common: created directory at: artifacts]
+[2024-05-25 12:27:26,275: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 12:27:26,486: INFO: 4183233442: Data splitted into training and test sets]
+[2024-05-25 12:27:26,487: INFO: 4183233442: (7501, 14)]
+[2024-05-25 12:27:26,488: INFO: 4183233442: (2501, 14)]
+[2024-05-25 12:27:57,200: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 12:27:57,202: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 12:27:57,209: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 12:27:57,210: INFO: common: created directory at: artifacts]
+[2024-05-25 12:27:57,212: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 12:27:57,353: INFO: 4183233442: Data splitted into training and test sets]
+[2024-05-25 12:27:57,354: INFO: 4183233442: (7501, 14)]
+[2024-05-25 12:27:57,355: INFO: 4183233442: (2501, 14)]
+[2024-05-25 12:31:03,905: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 12:31:03,908: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 12:31:03,914: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 12:31:03,916: INFO: common: created directory at: artifacts]
+[2024-05-25 12:31:03,918: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 12:32:00,838: INFO: 2124775368: Data split into training and test sets]
+[2024-05-25 12:32:00,839: INFO: 2124775368: Train shape: (7501, 14)]
+[2024-05-25 12:32:00,840: INFO: 2124775368: Test shape: (2501, 14)]
+[2024-05-25 12:36:18,170: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 12:36:18,173: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 12:36:18,178: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 12:36:18,180: INFO: common: created directory at: artifacts]
+[2024-05-25 12:36:18,182: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 12:37:03,654: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 12:37:03,657: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 12:37:03,663: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 12:37:03,665: INFO: common: created directory at: artifacts]
+[2024-05-25 12:37:03,667: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 12:38:12,912: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 12:38:12,914: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 12:38:12,920: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 12:38:12,922: INFO: common: created directory at: artifacts]
+[2024-05-25 12:38:12,923: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 12:38:36,628: INFO: 2955539026: Data split into training and test sets]
+[2024-05-25 12:38:36,630: INFO: 2955539026: Train shape: (7501, 14)]
+[2024-05-25 12:38:36,631: INFO: 2955539026: Test shape: (2501, 14)]
+[2024-05-25 13:00:00,311: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 13:00:00,320: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:00:00,323: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:00:00,334: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:00:00,336: INFO: common: created directory at: artifacts]
+[2024-05-25 13:00:00,340: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:02:03,392: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 13:02:03,395: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:02:03,396: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:02:03,398: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:02:03,399: INFO: common: created directory at: artifacts]
+[2024-05-25 13:02:03,422: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:02:51,865: ERROR: main: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>]
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1422, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\End-to-End-Customer-Churn-Prediction-using-MLflow-and-DVC\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\users\user\documents\github\end-to-end-customer-churn-prediction-using-mlflow-and-dvc\src\mlFlowProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "c:\users\user\documents\github\end-to-end-customer-churn-prediction-using-mlflow-and-dvc\src\mlFlowProject\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 555, in error
+    result = self._call_chain(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 747, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[2024-05-25 13:03:15,331: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 13:03:15,336: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:03:15,337: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:03:15,341: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:03:15,341: INFO: common: created directory at: artifacts]
+[2024-05-25 13:03:15,342: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:03:54,414: ERROR: main: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>]
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1422, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\End-to-End-Customer-Churn-Prediction-using-MLflow-and-DVC\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\users\user\documents\github\end-to-end-customer-churn-prediction-using-mlflow-and-dvc\src\mlFlowProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "c:\users\user\documents\github\end-to-end-customer-churn-prediction-using-mlflow-and-dvc\src\mlFlowProject\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 555, in error
+    result = self._call_chain(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 747, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[2024-05-25 13:04:40,581: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 13:04:40,584: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:04:40,585: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:04:40,588: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:04:40,589: INFO: common: created directory at: artifacts]
+[2024-05-25 13:04:40,590: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:05:25,016: ERROR: main: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>]
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1422, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\End-to-End-Customer-Churn-Prediction-using-MLflow-and-DVC\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\users\user\documents\github\end-to-end-customer-churn-prediction-using-mlflow-and-dvc\src\mlFlowProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "c:\users\user\documents\github\end-to-end-customer-churn-prediction-using-mlflow-and-dvc\src\mlFlowProject\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 555, in error
+    result = self._call_chain(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 747, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[2024-05-25 13:06:48,597: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 13:06:48,600: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:06:48,601: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:06:48,603: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:06:48,604: INFO: common: created directory at: artifacts]
+[2024-05-25 13:06:48,605: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:07:28,973: ERROR: main: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>]
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1422, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\End-to-End-Customer-Churn-Prediction-using-MLflow-and-DVC\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\users\user\documents\github\end-to-end-customer-churn-prediction-using-mlflow-and-dvc\src\mlFlowProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "c:\users\user\documents\github\end-to-end-customer-churn-prediction-using-mlflow-and-dvc\src\mlFlowProject\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 555, in error
+    result = self._call_chain(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 747, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[2024-05-25 13:13:37,742: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 13:13:37,745: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:13:37,746: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:13:37,749: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:13:37,750: INFO: common: created directory at: artifacts]
+[2024-05-25 13:13:37,751: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:14:12,551: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 13:14:12,554: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:14:12,555: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:14:12,560: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:14:12,561: INFO: common: created directory at: artifacts]
+[2024-05-25 13:14:12,562: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:15:26,134: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 13:15:26,137: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:15:26,138: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:15:26,142: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:15:26,143: INFO: common: created directory at: artifacts]
+[2024-05-25 13:15:26,143: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:17:41,265: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:17:41,267: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:17:41,272: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:17:41,273: INFO: common: created directory at: artifacts]
+[2024-05-25 13:17:41,275: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:18:39,591: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:18:39,594: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:18:39,599: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:18:39,602: INFO: common: created directory at: artifacts]
+[2024-05-25 13:18:39,604: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:23:23,757: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 13:23:23,760: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:23:23,760: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:23:23,763: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:23:23,763: INFO: common: created directory at: artifacts]
+[2024-05-25 13:23:23,764: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:24:03,819: ERROR: main: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>]
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1422, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\GitHub\End-to-End-Customer-Churn-Prediction-using-MLflow-and-DVC\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\users\user\documents\github\end-to-end-customer-churn-prediction-using-mlflow-and-dvc\src\mlFlowProject\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "c:\users\user\documents\github\end-to-end-customer-churn-prediction-using-mlflow-and-dvc\src\mlFlowProject\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 555, in error
+    result = self._call_chain(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 747, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+[2024-05-25 13:28:47,892: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 13:28:47,898: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:28:47,899: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:28:47,902: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:28:47,903: INFO: common: created directory at: artifacts]
+[2024-05-25 13:28:47,903: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-25 13:28:51,707: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 267815
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "fcf4e6e192bd02a6bf9d98ce1f322f865e4eca3980bccff3ea196f83b780509f"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 45D0:37ABCC:40DA25:4591AC:6651D981
+Accept-Ranges: bytes
+Date: Sat, 25 May 2024 12:28:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fra-eddf8230054-FRA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1716640130.811908,VS0,VE161
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b35388449e1d036a5a1cb4a91385d9a842aef81e
+Expires: Sat, 25 May 2024 12:33:49 GMT
+Source-Age: 0
+
+]
+[2024-05-25 13:28:51,849: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-25 13:28:51,852: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-25 13:28:51,857: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:28:51,859: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:28:51,862: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:28:51,862: INFO: common: created directory at: artifacts]
+[2024-05-25 13:28:51,863: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-25 13:28:52,231: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-25 13:28:52,232: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-25 13:28:52,245: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-25 13:28:52,246: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-25 13:28:52,250: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-25 13:28:52,251: INFO: common: created directory at: artifacts]
+[2024-05-25 13:28:52,338: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-25 13:29:31,619: INFO: data_transformation: Data split into training and test sets]
+[2024-05-25 13:29:31,620: INFO: data_transformation: Train shape: (7501, 14)]
+[2024-05-25 13:29:31,621: INFO: data_transformation: Test shape: (2501, 14)]
+[2024-05-25 13:29:31,666: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
