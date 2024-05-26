@@ -62,6 +62,7 @@ class ConfigurationManager:
         data_transformation_config = DataTransformationConfig(
             root_dir=config.root_dir,
             data_path=config.data_path,
+            preprocessor_name=config.preprocessor_name,
             target_column=schema.name
         )
 

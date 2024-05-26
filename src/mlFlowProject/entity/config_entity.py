@@ -22,6 +22,7 @@ class DataValidationConfig:
 class DataTransformationConfig:
     root_dir: Path
     data_path: Path
+    preprocessor_name: str
     target_column: str
 
 
