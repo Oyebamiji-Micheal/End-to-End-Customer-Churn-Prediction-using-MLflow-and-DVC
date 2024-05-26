@@ -25,4 +25,4 @@ class ModelTrainer:
         lgbm_clf = LGBMClassifier(n_estimators=self.config.n_estimators, num_leaves=self.config.num_leaves, learning_rate=self.config.learning_rate, max_depth= self.config.max_depth)
         lgbm_clf.fit(train_x, train_y)
 
-        joblib.dump(lgbm_clf, os.path.join(self.config.root_dir, "lightGBM.joblib"))
+        joblib.dump(lgbm_clf, os.path.join(self.config.root_dir, self.config.model_name))
