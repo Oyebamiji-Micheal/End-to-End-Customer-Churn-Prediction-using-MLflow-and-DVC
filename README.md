@@ -27,3 +27,12 @@
 - [Dataset](#data)
 - [Additional Info](#additional_info)
 - [Running Locally](#running_locally)
+
+
+import dagshub
+dagshub.init(repo_owner='Oyebamiji-Micheal', repo_name='End-to-End-Customer-Churn-Prediction-using-MLflow-and-DVC', mlflow=True)
+
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)

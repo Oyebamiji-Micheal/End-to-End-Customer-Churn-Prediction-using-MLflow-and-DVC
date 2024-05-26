@@ -1,4 +1,4 @@
-pandas 
+pandas==1.5.2
 mlflow==2.2.2
 notebook
 numpy
@@ -9,7 +9,7 @@ pyYAML
 tqdm
 ensure==1.0.2
 joblib
-lightgbm
+lightgbm==4.3.0
 types-PyYAML
 Flask
 Flask-Cors
