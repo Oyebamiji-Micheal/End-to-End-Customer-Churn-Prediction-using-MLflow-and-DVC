@@ -11,11 +11,14 @@ from mlFlowProject import logger
 from mlFlowProject.entity.config_entity import DataTransformationConfig
 
 
+
 class DataTransformation:
     def __init__(self, config: DataTransformationConfig):
         self.config = config
         
     def preprocess_data(self, data):
+        data.dropna(inplace=True) # Drop missing values
+
         X = data.drop(columns=self.config.target_column)
         y = data[self.config.target_column]
 
@@ -53,23 +56,27 @@ class DataTransformation:
     def train_test_splitting(self):
         data = pd.read_csv(self.config.data_path)
 
+        X, y = self.preprocess_data(data)
+        
         # Split the data into training and test sets. (0.75, 0.25) split.
-        train, test = train_test_split(data, test_size=0.25)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)
 
-        # Preprocess the train and test data
-        X_train, y_train = self.preprocess_data(train)
-        X_test, y_test = self.preprocess_data(test)
+        # Reset feature index 
+        X_train = X_train.reset_index(drop=True)
+        X_test = X_test.reset_index(drop=True)
+        
+        # Convert target to dataframe and reset index
+        y_train_df = y_train.to_frame().reset_index(drop=True)
+        y_test_df = y_test.to_frame().reset_index(drop=True)
+        
+        # Concatenate along columns
+        train_processed = pd.concat([X_train, y_train_df], axis=1)
+        test_processed = pd.concat([X_test, y_test_df], axis=1)
 
         # Save the processed data
-        train_processed = pd.concat([X_train, y_train.reset_index(drop=True)], axis=1)
-        test_processed = pd.concat([X_test, y_test.reset_index(drop=True)], axis=1)
-
         train_processed.to_csv(os.path.join(self.config.root_dir, "train.csv"), index=False)
         test_processed.to_csv(os.path.join(self.config.root_dir, "test.csv"), index=False)
 
-        logger.info("Data split into training and test sets")
-        logger.info(f"Train shape: {train.shape}")
-        logger.info(f"Test shape: {test.shape}")
-
-        print(f"Train shape: {train.shape}")
-        print(f"Test shape: {test.shape}")
+        logger.info("Data splitted into training and test sets")
+        logger.info(f"Shape of preprocessed training data: {train_processed.shape}")
+        logger.info(f"Shape of preprocessed test data: {test_processed.shape}")
