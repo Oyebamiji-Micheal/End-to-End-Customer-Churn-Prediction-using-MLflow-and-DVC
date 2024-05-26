@@ -85,7 +85,7 @@ class DataTransformation:
         Returns:
         pd.DataFrame: The data with converted column types.
         """
-        columns_to_convert = ['HasCrCard', 'IsActiveMember', 'Tenure']
+        columns_to_convert = ['HasCrCard', 'IsActiveMember', 'Tenure', 'NumOfProducts']
         for column in columns_to_convert:
             data[column] = data[column].astype('int').astype('object')
         return data
