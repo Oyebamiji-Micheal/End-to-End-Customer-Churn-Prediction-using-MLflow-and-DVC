@@ -2469,3 +2469,9 @@ x==========x]
 [2024-05-26 12:32:05,120: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
 
 x==========x]
+[2024-05-26 12:34:42,486: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 12:34:42,491: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 12:34:42,499: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 12:34:42,501: INFO: common: created directory at: artifacts]
+[2024-05-26 12:34:42,507: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-05-26 12:34:46,205: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
