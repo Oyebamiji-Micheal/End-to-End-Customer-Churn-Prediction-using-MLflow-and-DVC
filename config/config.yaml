@@ -17,6 +17,7 @@ data_validation:
 data_transformation:
   root_dir: artifacts/data_transformation
   data_path: artifacts/data_ingestion/Churn_Modelling.csv
+  preprocessor_name: preprocessor.joblib
 
 
 model_trainer:
