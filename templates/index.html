@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Customer Churn Prediction</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">    
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Customer Churn Prediction</h1>
+            <p>End to End Machine Learning Demonstration</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 form-container">
+                <form action="/predict" method="post">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="Surname">Surname</label>
+                            <input type="text" class="form-control form-control-sm" name="Surname" placeholder="Enter your Surname" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="creditScore">Credit Score</label>
+                            <input type="number" step=1 min=0 class="form-control form-control-sm" name="creditScore" placeholder="Enter value" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="geography">Geography</label>
+                            <select class="form-control form-control-sm" name="geography" required>
+                                <option value="" disabled selected>Select geography</option>
+                                <option value="France">France</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Spain">Spain</option>
+                            </select>
+                        </div>                        
+                        <div class="form-group col-md-6">
+                            <label for="gender">Gender</label>
+                            <select class="form-control form-control-sm" name="gender" required>
+                                <option value="" disabled selected>Select gender</option>
+                                <option value="0">Male</option>
+                                <option value="1">Female</option>
+                            </select>
+                        </div>                        
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="age">Age</label>
+                            <input type="number" step=1 min=18 class="form-control form-control-sm" name="age"
+                                placeholder="Enter value" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="tenure">Tenure</label>
+                            <input type="number" step=1 min=0 max=20 class="form-control form-control-sm" name="tenure" placeholder="Enter value" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="balance">Balance</label>
+                            <input type="number" step=0.001 min=0 class="form-control form-control-sm" name="balance"
+                                placeholder="Enter value" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="numberOfProducts">Number of Products</label>
+                            <input type="number" step=1 min=0 max=4 class="form-control form-control-sm" name="numberOfProducts"
+                                placeholder="Enter value" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="creditCard">Do you have a credit card?</label>
+                            <select class="form-control form-control-sm" name="creditCard" required>
+                                <option value="" disabled selected>Select option</option>
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="activeMember">Are you an active member?</label>
+                            <select class="form-control form-control-sm" name="activeMember" required>
+                                <option value="" disabled selected>Select option</option>
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="estimatedSalary">Estimated Salary</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="estimatedSalary" placeholder="Enter value" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="dummy_field">Dummy Field</label>
+                            <input type="number" step=0.0001 min=0 class="form-control form-control-sm" name="dummy_field" placeholder="Not Part of Input" readonly>
+                        </div>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary" value="Predict">
+
+                    <div class="icons">
+                        <!-- Add your GitHub, LinkedIn, and Twitter URLs -->
+                        <a href="https://github.com/Oyebamiji-Micheal/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/oyebamiji-micheal/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/MichealOjuri" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and Font Awesome Icons -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+</body>
+
+</html>

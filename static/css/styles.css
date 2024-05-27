@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(#3498db, #ffffff) no-repeat; 
+    font-size: 0.9em !important;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+}
+
+.form-container {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-control {
+    width: 90%
+}
+
+.icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    margin: 0px 10px;
+    font-size: large;
+}
+
+@media screen and (max-width: 575px) {
+	.container {
+	    padding: 30px;
+	}
+}

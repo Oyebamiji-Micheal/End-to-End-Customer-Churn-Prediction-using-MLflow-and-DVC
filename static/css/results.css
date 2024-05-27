@@ -1,0 +1,20 @@
+@import url('styles.css');
+
+body {
+    background: linear-gradient(#3498db, #ffffff 360%) no-repeat;
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+}
+
+a {
+    color: white;
+    font-size: small;
+}
+
+a:hover {
+    color: white;
+    text-decoration: None;
+}
