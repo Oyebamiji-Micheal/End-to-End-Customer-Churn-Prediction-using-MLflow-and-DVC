@@ -1,0 +1,11 @@
+artifacts
+venv
+env
+__pycache__
+*.pyc
+logs
+research
+data
+mlFlowProject.egg-info
+README.md
+LICENSE
