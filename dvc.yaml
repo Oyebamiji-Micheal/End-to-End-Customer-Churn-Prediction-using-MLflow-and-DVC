@@ -1,0 +1,46 @@
+stages:
+  data_ingestion:
+    cmd: python src/mlFlowProject/pipeline/stage_01_data_ingestion.py
+    deps:
+      - src/mlFlowProject/pipeline/stage_01_data_ingestion.py 
+      - src/mlFlowProject/components/data_ingestion.py
+      - config/config.yaml
+
+  data_validation:
+    cmd: python src/mlFlowProject/pipeline/stage_02_data_validation.py
+    deps:
+      - src/mlFlowProject/pipeline/stage_02_data_validation.py
+      - src/mlFlowProject/components/data_validation.py
+      - artifacts/data_ingestion/Churn_Modelling.csv
+      - config/config.yaml
+      - schema.yaml
+
+  data_transformation:
+    cmd: python src/mlFlowProject/pipeline/stage_03_data_transformation.py
+    deps:
+      - src/mlFlowProject/pipeline/stage_03_data_transformation.py
+      - src/mlFlowProject/components/data_transformation.py
+      - artifacts/data_validation/status.txt
+      - config/config.yaml
+
+  model_training:
+    cmd: python src/mlFlowProject/pipeline/stage_04_model_trainer.py
+    deps:
+      - src/mlFlowProject/pipeline/stage_04_model_trainer.py
+      - src/mlFlowProject/components/model_trainer.py
+      - artifacts/data_transformation/train.csv
+      - config/config.yaml
+    params:
+      - LightGBM.n_estimators
+      - LightGBM.num_leaves
+      - LightGBM.learning_rate
+      - LightGBM.max_depth
+    
+  model_evaluation:
+    cmd: python src/mlFlowProject/pipeline/stage_05_model_evaluation.py
+    deps:
+      - src/mlFlowProject/pipeline/stage_05_model_evaluation.py
+      - src/mlFlowProject/components/model_evaluation.py
+      - artifacts/data_transformation/test.csv
+      - artifacts/model_trainer/model.joblib
+      - config/config.yaml
