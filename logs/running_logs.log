@@ -4019,3 +4019,169 @@ x==========x]
 [2024-05-27 09:39:00,035: INFO: _internal: 127.0.0.1 - - [27/May/2024 09:39:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
 [2024-05-27 09:39:06,620: INFO: _internal: 127.0.0.1 - - [27/May/2024 09:39:06] "GET / HTTP/1.1" 200 -]
 [2024-05-27 09:39:06,695: INFO: _internal: 127.0.0.1 - - [27/May/2024 09:39:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-05-27 10:14:29,327: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-27 10:14:29,389: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-27 10:14:29,422: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 10:14:29,444: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-27 10:14:29,447: INFO: common: created directory at: artifacts]
+[2024-05-27 10:14:29,449: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-27 10:14:29,450: INFO: data_ingestion: File already exists of size: ~ 262 KB]
+[2024-05-27 10:14:29,624: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-27 10:14:29,625: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-27 10:14:29,636: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-27 10:14:29,640: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 10:14:29,646: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-27 10:14:29,648: INFO: common: created directory at: artifacts]
+[2024-05-27 10:14:29,649: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-27 10:14:29,914: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-27 10:14:29,914: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-27 10:14:29,952: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-27 10:14:29,956: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 10:14:29,960: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-27 10:14:29,961: INFO: common: created directory at: artifacts]
+[2024-05-27 10:14:29,962: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-27 10:14:40,952: INFO: data_transformation: Data split into training and test sets]
+[2024-05-27 10:14:40,956: INFO: data_transformation: Shape of preprocessed training data: (7498, 30)]
+[2024-05-27 10:14:40,958: INFO: data_transformation: Shape of preprocessed test data: (2500, 30)]
+[2024-05-27 10:14:40,972: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-27 10:14:40,972: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-27 10:14:40,991: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-27 10:14:41,002: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 10:14:41,010: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-27 10:14:41,011: INFO: common: created directory at: artifacts]
+[2024-05-27 10:14:41,012: INFO: common: created directory at: artifacts/model_trainer]
+[2024-05-27 10:14:56,941: INFO: _internal:  * Detected change in 'C:\\Users\\USER\\Documents\\GitHub\\End-to-End-Customer-Churn-Prediction-using-MLflow-and-DVC\\app.py', reloading]
+[2024-05-27 10:15:02,090: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-05-27 10:15:02,092: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-05-27 10:15:02,105: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-27 10:15:02,108: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-27 10:15:02,114: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-27 10:15:02,117: INFO: common: created directory at: artifacts]
+[2024-05-27 10:15:02,119: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-05-27 10:24:09,072: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2024-05-27 10:24:09,072: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-27 10:24:09,084: INFO: _internal:  * Restarting with stat]
+[2024-05-27 10:24:10,638: WARNING: _internal:  * Debugger is active!]
+[2024-05-27 10:24:10,642: INFO: _internal:  * Debugger PIN: 704-966-553]
+[2024-05-27 10:32:20,091: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:32:20] "GET /train HTTP/1.1" 200 -]
+[2024-05-27 10:32:27,968: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:32:27] "GET /train HTTP/1.1" 200 -]
+[2024-05-27 10:32:33,348: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:32:33] "GET / HTTP/1.1" 200 -]
+[2024-05-27 10:32:33,806: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:32:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-05-27 10:32:41,390: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:32:41] "GET /train HTTP/1.1" 200 -]
+[2024-05-27 10:33:29,383: INFO: _internal:  * Detected change in 'C:\\Users\\USER\\Documents\\GitHub\\End-to-End-Customer-Churn-Prediction-using-MLflow-and-DVC\\app.py', reloading]
+[2024-05-27 10:34:56,144: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2024-05-27 10:34:56,144: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-27 10:34:56,146: INFO: _internal:  * Restarting with stat]
+[2024-05-27 10:34:58,350: WARNING: _internal:  * Debugger is active!]
+[2024-05-27 10:34:58,356: INFO: _internal:  * Debugger PIN: 704-966-553]
+[2024-05-27 10:34:59,553: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:34:59] "GET / HTTP/1.1" 200 -]
+[2024-05-27 10:35:00,064: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:35:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-05-27 10:35:04,028: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:35:04] "GET /predict HTTP/1.1" 200 -]
+[2024-05-27 10:35:04,132: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:35:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-05-27 10:35:26,974: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:35:26] "GET /train HTTP/1.1" 200 -]
+[2024-05-27 10:35:57,449: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:35:57] "GET /train HTTP/1.1" 200 -]
+[2024-05-27 10:36:17,517: INFO: _internal: 127.0.0.1 - - [27/May/2024 10:36:17] "GET /train HTTP/1.1" 200 -]
+[2024-05-28 06:55:37,366: INFO: _internal: 127.0.0.1 - - [28/May/2024 06:55:37] "GET /predict HTTP/1.1" 200 -]
+[2024-05-28 06:55:37,444: INFO: _internal: 127.0.0.1 - - [28/May/2024 06:55:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-05-28 06:55:42,234: INFO: _internal: 127.0.0.1 - - [28/May/2024 06:55:42] "GET / HTTP/1.1" 200 -]
+[2024-05-28 06:55:42,308: INFO: _internal: 127.0.0.1 - - [28/May/2024 06:55:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-05-28 07:03:50,577: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-28 07:03:50,581: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-28 07:03:50,604: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 07:03:50,609: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-28 07:03:50,612: INFO: common: created directory at: artifacts]
+[2024-05-28 07:03:50,614: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-28 07:04:02,684: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 267815
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "fcf4e6e192bd02a6bf9d98ce1f322f865e4eca3980bccff3ea196f83b780509f"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1A77:1AF563:79763F:803FD6:665573D1
+Accept-Ranges: bytes
+Date: Tue, 28 May 2024 06:04:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ams21081-AMS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1716876243.553115,VS0,VE191
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: dc5dd7851f1a488a7cf8bf641a3125660834513a
+Expires: Tue, 28 May 2024 06:09:02 GMT
+Source-Age: 0
+
+]
+[2024-05-28 07:04:02,714: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-28 07:04:11,816: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-28 07:04:11,822: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-28 07:04:11,825: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 07:04:11,830: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-28 07:04:11,831: INFO: common: created directory at: artifacts]
+[2024-05-28 07:04:11,833: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-28 07:04:12,130: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-28 07:04:33,562: INFO: stage_03_data_transformation: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-28 07:04:33,583: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-28 07:04:33,591: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 07:04:33,605: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-28 07:04:33,608: INFO: common: created directory at: artifacts]
+[2024-05-28 07:04:33,610: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-28 07:04:41,210: INFO: data_transformation: Data split into training and test sets]
+[2024-05-28 07:04:41,211: INFO: data_transformation: Shape of preprocessed training data: (7498, 30)]
+[2024-05-28 07:04:41,211: INFO: data_transformation: Shape of preprocessed test data: (2500, 30)]
+[2024-05-28 07:04:41,213: INFO: stage_03_data_transformation: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-28 07:04:52,087: INFO: stage_04_model_trainer: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-28 07:04:52,096: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-28 07:04:52,099: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 07:04:52,109: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-28 07:04:52,110: INFO: common: created directory at: artifacts]
+[2024-05-28 07:04:52,111: INFO: common: created directory at: artifacts/model_trainer]
+[2024-05-28 07:05:01,777: INFO: stage_04_model_trainer: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-05-28 07:05:42,382: INFO: stage_05_model_evaluation: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-05-28 07:05:42,387: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-28 07:05:42,391: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 07:05:42,396: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-28 07:05:42,397: INFO: common: created directory at: artifacts]
+[2024-05-28 07:05:42,398: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-05-28 07:05:49,318: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-05-28 07:07:02,977: INFO: stage_05_model_evaluation: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-28 07:20:45,735: INFO: _internal: 127.0.0.1 - - [28/May/2024 07:20:45] "POST /predict HTTP/1.1" 200 -]
+[2024-05-28 07:20:45,754: INFO: _internal: 127.0.0.1 - - [28/May/2024 07:20:45] "POST /predict HTTP/1.1" 200 -]
+[2024-05-28 07:20:45,755: INFO: _internal: 127.0.0.1 - - [28/May/2024 07:20:45] "POST /predict HTTP/1.1" 200 -]
+[2024-05-28 07:22:44,420: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2024-05-28 07:22:44,420: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-28 07:22:44,431: INFO: _internal:  * Restarting with stat]
+[2024-05-28 07:22:45,698: WARNING: _internal:  * Debugger is active!]
+[2024-05-28 07:22:45,702: INFO: _internal:  * Debugger PIN: 704-966-553]
+[2024-05-28 07:24:28,247: INFO: _internal: 127.0.0.1 - - [28/May/2024 07:24:28] "GET / HTTP/1.1" 200 -]
+[2024-05-28 07:24:28,662: INFO: _internal: 127.0.0.1 - - [28/May/2024 07:24:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-05-28 07:24:56,228: INFO: _internal: 127.0.0.1 - - [28/May/2024 07:24:56] "POST /predict HTTP/1.1" 200 -]
+[2024-05-28 07:24:57,050: INFO: _internal: 127.0.0.1 - - [28/May/2024 07:24:57] "[36mGET /static/css/results.css HTTP/1.1[0m" 304 -]
+[2024-05-28 07:24:57,059: INFO: _internal: 127.0.0.1 - - [28/May/2024 07:24:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
