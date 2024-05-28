@@ -15,7 +15,7 @@ def homePage():
 
 @app.route('/train',methods=['GET'])  # route to train the pipeline
 def training():
-    os.system("python main.py")
+    os.system("dvc repro")
     return "Training Successful!" 
 
 
@@ -61,7 +61,6 @@ def index():
             else:
                 prediction = 'Yes'
 
-            print(prediction)
             return render_template('result.html', prediction=prediction)
         except Exception as e:
             return str(e)
