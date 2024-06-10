@@ -40,7 +40,7 @@ This repository is an end-to-end machine learning project that focuses on predic
 <a id="objective"></a>
 <h2>Objective</h2>
 <p align="justify">
-Building on the foundational end to end workflow utilized in my previous project, <a href="https:/github.com/Oyebamiji-Micheal/Prediction-of-Mohs-Hardness/tree/main">"Prediction of Mohs Hardness"</a>, the objective of this project is to integrate the use of MLflow and DVC into my workflow. MLflow is a machine learning lifecycle management platform that enables tracking experiments, packaging code, and managing models. DVC (Data Version Control) is a version control system for machine learning projects that allows for efficient data and model versioning. By integrating MLflow and DVC, I aim to enhance my code reproducibility and efficient version control of my datasets and models.
+Building on the foundational end to end workflow utilized in my previous project, <a href="https://github.com/Oyebamiji-Micheal/Prediction-of-Mohs-Hardness/tree/main">"Prediction of Mohs Hardness"</a>, the objective of this project is to integrate the use of MLflow and DVC into my workflow. MLflow is a machine learning lifecycle management platform that enables tracking experiments, packaging code, and managing models. DVC (Data Version Control) is a version control system for machine learning projects that allows for efficient data and model versioning. By integrating MLflow and DVC, I aim to enhance my code reproducibility and efficient version control of my datasets and models.
 </p>
 
 <a id="customer_churn"></a>
@@ -56,7 +56,7 @@ Customer churn refers to the phenomenon where customers stop doing business with
 <a id="data"></a>
 <h2>Dataset</h2>
 <p align="justify">
-The dataset used for this project is obtained from <a href="https:/www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction">Kaggle</a>. It contains the following attributes:
+The dataset used for this project is obtained from <a href="https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction">Kaggle</a>. It contains the following attributes:
 </p>
 
 - Customer ID: A unique identifier for each customer
