@@ -107,6 +107,7 @@ The last step is to actually deploy this project. However, I could not deploy it
 3. Build a Docker image of the project.
 4. Deploy the Docker image to Azure Container Instances or Azure Kubernetes Service.
 
+This project was however deployed to Heroku. You can access the code <a href="https://github.com/Oyebamiji-Micheal/Deploying-Customer-Churn-Model-to-Heroku-using-Docker-and-Github-Actions" target="_blank">here</a>. 
 
 <a id="running_locally"></a>
 <h2>Running Locally</h2>
